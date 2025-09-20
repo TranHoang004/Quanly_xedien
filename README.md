@@ -14,7 +14,7 @@ Phần mềm quản lý nhập kho, xuất bán, bảo hành và thống kê doa
 ## Cài đặt
 
 ```bash
-git clone https://github.com/<your-username>/<your-repo>.git
+git clone https://github.com/TranHoang004/Quanly_xedien
 cd quanly_xedien
 python -m venv venv
 venv\Scripts\activate  # Windows
