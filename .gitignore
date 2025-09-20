@@ -1,46 +1,17 @@
-# ----------------------------
-# GitHub Linguist (Language stats)
-# ----------------------------
+đã có gitignore rồi
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+venv/
+.env
 
-# Chỉ tính Python là ngôn ngữ chính
-*.py linguist-detectable=true
+# VSCode
+.vscode/
 
-# Bỏ qua các file/database không phải source code
-*.db linguist-detectable=false
-*.sqlite3 linguist-detectable=false
-
-# Bỏ qua các file giao diện, nếu có nhiều HTML/CSS/JS thì không cho chiếm % ngôn ngữ
-*.html linguist-detectable=false
-*.css linguist-detectable=false
-*.js linguist-detectable=false
-
-# Bỏ qua file cấu hình / tài liệu phụ
-*.md linguist-detectable=false
-*.spec linguist-detectable=false
-
-# ----------------------------
-# Normalize line endings
-# ----------------------------
-* text=auto eol=lf
-
-# ----------------------------
-# Binary files (không auto đổi line endings)
-# ----------------------------
-*.png binary
-*.jpg binary
-*.jpeg binary
-*.gif binary
-*.ico binary
-*.pdf binary
-*.xlsx binary
-
-# ----------------------------
-# Project specific folders
-# ----------------------------
-
-# Bỏ qua thư mục build, dist, cache, venv
-build/* linguist-vendored
-dist/* linguist-vendored
-__pycache__/* linguist-vendored
-.venv/* linguist-vendored
-venv/* linguist-vendored
+# OS
+.DS_Store
+Thumbs.db
